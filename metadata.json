@@ -1,0 +1,6 @@
+{
+  "name": "StudySphere AI",
+  "description": "An AI study companion that answers questions using only uploaded course materials with exact citations, runs adaptive quizzes, and tracks topic mastery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

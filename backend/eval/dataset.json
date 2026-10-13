@@ -1,0 +1,71 @@
+[
+  {
+    "query": "how does binary search prevent integer arithmetic overflow?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-dsa-textbook",
+    "expected_page": 24,
+    "key_phrase": "low + ((high - low) >> 1)"
+  },
+  {
+    "query": "why does recursion cause a runtime stack overflow error?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-dsa-textbook",
+    "expected_page": 58,
+    "key_phrase": "activation record on the runtime stack"
+  },
+  {
+    "query": "why is local parent-child check invalid for binary search tree validation?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-slides-02",
+    "expected_slide": 12,
+    "key_phrase": "enforce a valid range [minVal, maxVal]"
+  },
+  {
+    "query": "how should students calculate tree height in recursion according to lecture?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-video-03",
+    "expected_timestamp": 872,
+    "key_phrase": "maxDepth(root) = 1 + max"
+  },
+  {
+    "query": "what two properties are required for dynamic programming?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-dsa-textbook",
+    "expected_page": 122,
+    "key_phrase": "optimal substructure and overlapping subproblems"
+  },
+  {
+    "query": "what are the balance rotation cases in an AVL tree?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-slides-02",
+    "expected_slide": 18,
+    "key_phrase": "Single Right Rotation"
+  },
+  {
+    "query": "what is the difference between adjacency list and adjacency matrix space?",
+    "is_on_syllabus": true,
+    "expected_source_id": "src-slides-02",
+    "expected_slide": 27,
+    "key_phrase": "Space complexity O(V^2)"
+  },
+  {
+    "query": "what is the capital of France?",
+    "is_on_syllabus": false,
+    "expected_refusal": true
+  },
+  {
+    "query": "who won the 2024 cricket world cup?",
+    "is_on_syllabus": false,
+    "expected_refusal": true
+  },
+  {
+    "query": "explain the process of photosynthesis in plants",
+    "is_on_syllabus": false,
+    "expected_refusal": true
+  },
+  {
+    "query": "how to bake chocolate chip cookies at home",
+    "is_on_syllabus": false,
+    "expected_refusal": true
+  }
+]
